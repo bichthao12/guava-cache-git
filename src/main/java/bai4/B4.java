@@ -15,6 +15,7 @@ import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
 public class B4 {
 	public static void main(String[] args) {
+		/* Chinh sua tren server github */
 		LoadingCache<Integer, List<Integer>> primeCache =
 				CacheBuilder.newBuilder()
 				.maximumSize(100)
